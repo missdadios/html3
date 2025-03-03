@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>Petite & Passionate: Exploring Tech, Fashion, and Life</title>
+<link type="text/css" rel="stylesheet" href="html3/style.css">
+<nav>
+<ul>
+<li><a href="https://www.example.com" class="nav-button">Work</a>
+<li><a href="https://www.example.com" class="nav-button">Passion</a>
+<li><a href="https://www.example.com" class="nav-button">Life</a>
+</ul>
+</nav>
+</head>
+<body>
+<h1>Petite & Passionate: Exploring Tech, Fashion, and Life</h1>
+<div id="author"><strong>Author:</strong> Ivy Chanelle Dadios <strong>
+</br> Published:</strong> February 24, 2025</div>
+<a href="images/ivy.jpg" target="_blank">
+<img src="images/ivy.jpg" alt="Picture of Me" />
+</a>
+
+<h2>About Me</h2>
+<div class="profile">
+<p>Welcome to My Profile!
+</br>
+</br>
+I’m <strong>Ivy Chanelle Dadios,</strong> a Software Quality Engineer with a degree in Bachelor of Arts in Multimedia Studies from the University of the Philippines Open University. My passion for understanding how people engage with digital experiences led me to pursue a degree in Multimedia Studies, where I balanced both the creative and technical aspects of user experience. Now, as a Master of Information Systems student, I'm diving deeper into the world of technology, with a focus on Computer Science courses as part of my electives—something I’ve always dreamed of pursuing.
+</br>
+</br>
+For me, quality goes beyond just ensuring functionality. It’s about crafting seamless, intuitive experiences that truly resonate with users. As a Software Quality Engineer, I ensure that every system I work on meets the highest standards, runs efficiently, and delivers exceptional user experiences. My background in Multimedia fuels my commitment to understanding the user perspective, and my electives in Computer Science are helping me sharpen my technical expertise to build even better solutions.
+</br>
+</br>
+Driven by curiosity, creativity, and an ever-growing passion for learning, I embrace every opportunity to expand my skills. Whether through workshops, webinars, or hands-on projects, I’m excited to continue blending my creative vision with cutting-edge technology to create impactful user-centered designs. </p> </div>
+
+<button id="funFactButton">Click for a Fun Fact!</button>
+  <p id="funFactDisplay"></p>
+
+<div id=hi>
+<h2>Hobbies & Interests</h2>
+</div>
+<div id="hobbies">
+<p><strong>Attending Workshops & Webinars</strong>
+</br>
+I am passionate about continuous learning, so I love attending online workshops and webinars to stay updated on the latest industry trends, software tools, and innovations in technology.</p>
+</br>
+</br>
+<p><strong>Shopping & Styling Myself</strong>
+</br>
+I have a keen interest in fashion, whether it’s window shopping or curating my own personal style. I love exploring the latest trends, experimenting with different looks, and finding ways to express my personality through my wardrobe.</p>
+</br>
+</br>
+<p><strong>Keeping Things Organized</strong>
+</br>
+I find joy in keeping things tidy and well-organized, whether it’s managing my workspace, planning my schedule, or arranging personal items. It helps me stay focused, productive, and ensures everything runs smoothly in my daily life.</p>
+</br>
+</br>
+<p><strong>Photography</strong>
+</br>
+Capturing moments through photography is one of my favorite creative outlets. It allows me to explore visual storytelling and focus on the beauty of everyday life.</p>
+</div>
+
+
+<!-- JavaScript: Fun Fact Button Logic -->
+  <script>
+    // Get references to the button and the display element
+    const button = document.getElementById("funFactButton");
+    const display = document.getElementById("funFactDisplay");
+
+    // Create an array of fun facts
+    const funFacts = [
+      "Mathematics and Chemistry are my favorite subjects!",
+      "Fun Fact: As a child, I envisioned myself in a variety of professions, from becoming a lawyer and medical doctor to pursuing a career as a data scientist.",
+      "Top Aspiration: Currently, my greatest aspiration is to become a PhilSA AD ASTRA scholar, where I can further develop my skills and contribute to the advancement of space science and technology in the Philippines.",
+      "Fun Fact: I don’t drink coffee—instead, I prefer indulging in frozen yogurt or refreshing fruit shakes.",
+    ];
+
+    // Add an event listener to the button
+    button.addEventListener("click", function() {
+      // Generate a random index to select a fun fact
+      const randomIndex = Math.floor(Math.random() * funFacts.length);
+
+      // Display the selected fun fact
+      display.textContent = funFacts[randomIndex];
+
+      // Make the fun fact visible (if it was previously hidden)
+      display.style.display = "block";
+    });
+  </script>
+
+<footer>
+  <p>&copy; 2025 Ivy Chanelle Dadios. All rights reserved.</p>
+  <p>Contact me at: <a href="mailto:ivychanelle.dadios@upou.edu.ph">ivychanelle.dadios@upou.edu.ph</a></p>
+  <ul>
+    <li><a href="https://www.facebook.com/ivychanelle.dadios" target="_blank">Facebook</a></li>
+    <li><a href="https://www.instagram.com/ivy_chanelle" target="_blank">Instagram</a></li>
+    <li><a href="https://www.tiktok.com/@ivy_chanelle" target="_blank">Tiktok</a></li>
+  </ul>
+</footer>
+</body>
+
+</html>
