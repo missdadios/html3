@@ -160,15 +160,21 @@ img:hover {
 
 @media all and (max-width: 1465px) {
 body {
-  max-width: 1200px;
+  max-width: 1450px;
   margin-left: 50px;
   margin-right: 50px;
   background-color: lightblue;
 }
 }
 
-
-
+@media all and (max-width: 1299px) {
+body {
+  max-width: 1200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: lightblue;
+}
+}
 
 
 
