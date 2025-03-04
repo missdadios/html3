@@ -176,6 +176,12 @@ body {
 }
 }
 
+@media all and (max-width: 1296px) {
+#author {
+  margin-left: 800px;
+}
+}
+
 
 @media all and (max-width: 1098px) {
 body {
@@ -192,6 +198,10 @@ body {
   margin-left: 50px;
   margin-right: 50px;
   background-color: lightblue;
+}
+
+#author {
+  margin-left: 800px;
 }
 }
 
