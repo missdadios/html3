@@ -299,7 +299,11 @@ margin-bottom: 20px;
   padding-right: 1px;
   padding-left: 1px;
 } 
+ nav ul li a {
+    padding: 9px 12px;
+    font-size: 15px;
 }
+  ]
   
 @media all and (max-width: 412px) {
   
