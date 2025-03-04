@@ -158,6 +158,19 @@ img:hover {
   font-style: italic;
 }
 
+
+
+@media all and (max-width: 1299px) {
+body {
+  max-width: 1200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+}
+
+
+
+
 /* Responsive Styles */
 @media all and (max-width: 900px) {
   /* Adjust text size */
@@ -221,16 +234,6 @@ margin-bottom: 20px;
     padding: 10px 15px;
     font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
 
   #funFactButton {
     margin-left: auto;
