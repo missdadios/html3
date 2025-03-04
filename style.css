@@ -163,7 +163,7 @@ body {
   max-width: 1450px;
   margin-left: 50px;
   margin-right: 50px;
-  background-color: lightblue;
+  background-color: yellow;
 }
 }
 
@@ -172,13 +172,14 @@ body {
   max-width: 1200px;
   margin-left: 50px;
   margin-right: 50px;
-  background-color: lightblue;
+  background-color: blue;
 }
 }
 
 @media all and (max-width: 1296px) {
 #author {
   margin-left: 800px;
+  background-color: green;
 }
 }
 
@@ -188,7 +189,7 @@ body {
   max-width: 1150px;
   margin-left: 50px;
   margin-right: 50px;
-  background-color: lightblue;
+  background-color: orange;
 }
 }
 
@@ -197,11 +198,7 @@ body {
   max-width: 1097px;
   margin-left: 50px;
   margin-right: 50px;
-  background-color: lightblue;
-}
-
-#author {
-  margin-left: 800px;
+  background-color: gray;
 }
 }
 
