@@ -175,7 +175,7 @@ border-right: 2px solid black;
 
 #email {
   width: 100%;   
-  max-width: 100px;  
+  max-width: 50px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
@@ -187,7 +187,7 @@ border-right: 2px solid black;
 
 #fb {
   width: 100%;   
-  max-width: 100px;  
+  max-width: 55px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
@@ -198,7 +198,7 @@ border-right: 2px solid black;
 }
 #ig {
   width: 100%;   
-  max-width: 100px;  
+  max-width: 47px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
@@ -209,7 +209,7 @@ border-right: 2px solid black;
 }
 #tk {
   width: 100%;   
-  max-width: 100px;  
+  max-width: 48px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
