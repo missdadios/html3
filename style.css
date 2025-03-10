@@ -189,6 +189,7 @@ border-right: 2px solid black;
 }
 #email:hover {
   transform: scale(0.95);
+}
 
 #fb {
   width: 100%;   
@@ -200,7 +201,7 @@ border-right: 2px solid black;
 }
 #fb:hover {
   transform: scale(0.95);
-
+}
 #ig {
   width: 100%;   
   max-width: 100px;  
@@ -211,7 +212,7 @@ border-right: 2px solid black;
 }
 #ig:hover {
   transform: scale(0.95);
-
+}
 #tk {
   width: 100%;   
   max-width: 100px;  
@@ -222,7 +223,7 @@ border-right: 2px solid black;
 }
 #tk:hover {
   transform: scale(0.95);
-  
+}
 
 /* Making the page responsive on screen with 1299px width */
 @media all and (max-width: 1299px) {
