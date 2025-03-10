@@ -162,10 +162,12 @@ border-right: 2px solid black;
 
 #footer-nav ul {
   list-style-type: none;
-  font-style: bold;
   cursor: pointer;
 }
-
+#footer-nav ul li {
+  margin-left: 15px;
+  font-style: bold;
+}
 
 /* Adding transition effect to contact icons when hovered on */
 #footer-nav ul li a {
@@ -176,7 +178,7 @@ border-right: 2px solid black;
 
 #email {
   width: 100%;   
-  max-width: 23px;  
+  max-width: 30px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
@@ -188,7 +190,7 @@ border-right: 2px solid black;
 
 #fb {
   width: 100%;   
-  max-width: 25px;  
+  max-width: 32px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
@@ -199,7 +201,7 @@ border-right: 2px solid black;
 }
 #ig {
   width: 100%;   
-  max-width: 20px;  
+  max-width: 28px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
@@ -210,7 +212,7 @@ border-right: 2px solid black;
 }
 #tk {
   width: 100%;   
-  max-width: 21px;  
+  max-width: 29px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
@@ -222,6 +224,7 @@ border-right: 2px solid black;
 
 #copy {
   margin-top: 35px;
+  margin-bottom: 35px;
   text-align: center;
 }
 /* Making the page responsive on screen with 1299px width */
