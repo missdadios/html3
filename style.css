@@ -92,6 +92,7 @@ border-right: 2px solid black;
 /* Adding transition effect to navigation buttons when hovered on */
 #main-nav ul li a {
   text-decoration: none; /* Removing bullet on text */
+  color: black;
   transition: border-radius 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
