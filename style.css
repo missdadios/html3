@@ -181,14 +181,14 @@ border-right: 2px solid black;
 
 #email {
   width: 100%;   
-  max-width: 10px;  
+  max-width: 70px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
 }
 #email:hover {
-  transform: scale(0.25);
+  transform: scale(0.95);
   
 
 /* Making the page responsive on screen with 1299px width */
