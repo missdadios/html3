@@ -108,7 +108,7 @@ nav ul li a {
 }
 
 /* Adding style and margin to img and transition effect when hovered on */
-img {
+#ivy {
   width: 100%;   
   max-width: 325px;  
   height: auto;  
@@ -120,7 +120,7 @@ img {
 }
 
 /* Adding transform effect to img when hovered on */
-img:hover {
+#ivy:hover {
   transform: scale(0.95);
 }
 
@@ -206,7 +206,7 @@ body {
   }
 
   /* Adjust image layout */
-  img {
+  #ivy {
     width: 100%;
     max-width: 300px;
     margin-left: 20px;
@@ -270,7 +270,7 @@ margin-bottom: 20px;
 margin-top: 20px;
   }
 
-img {
+#ivy {
 margin-bottom: 20px;
 }
  
@@ -323,7 +323,7 @@ margin-top: 10px;
 }
 
 
-img {
+#ivy {
     display: block;  
 margin-top: auto;
 margin-bottom: 20px;
