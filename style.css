@@ -65,7 +65,7 @@ margin-top: 70px;
 }
 
 /* Adding style to navigation menu */
-nav ul {
+#main-nav ul {
   list-style-type: none;
   background-color: pink;
   border: 4px solid black;
@@ -77,19 +77,19 @@ nav ul {
   cursor: pointer;
 }
 
-nav ul li {
+#main-nav ul li {
   display: inline;
 border-right: 2px solid black;
   padding-right: 8px;
   padding-left: 8px;
 }
 
-nav ul li:last-child {
+#main-nav ul li:last-child {
   border-right: none; /* Removing border on the right of the last navigation button */
 }
 
 /* Adding transition effect to navigation buttons when hovered on */
-nav ul li a {
+#main-nav ul li a {
   text-decoration: none; /* Removing bullet on text */
   color: black;
   transition: border-radius 0.3s ease, background-color 0.3s ease, color 0.3s ease;
@@ -235,17 +235,17 @@ margin-bottom: 20px;
   }
 
   /* Navigation bar */
-  nav ul {
+  #main-nav ul {
     display: block;
     text-align: center;
   }
 
-  nav ul li {
+  #main-nav ul li {
     display: inline;
     
   }
 
-  nav ul li a {
+  #main-nav ul li a {
     padding: 10px 15px;
     font-size: 18px;
 }
@@ -299,11 +299,11 @@ margin-bottom: 20px;
 
 /* Making the page responsive on screen with 457px width */
 @media all and (max-width: 457px) {
- nav ul li {
+ #main-nav ul li {
   padding-right: 1px;
   padding-left: 1px;
 } 
- nav ul li a {
+ #main-nav ul li a {
     padding: 7px 12px;
     font-size: 17px;
 }
