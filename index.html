@@ -61,13 +61,13 @@ Capturing moments through photography is one of my favorite creative outlets. It
 </div>
 
 
-<!-- JavaScript: Fun Fact Button Logic -->
+<!-- JavaScript Interactive Button-->
   <script>
     // Get references to the button and the display element
     const button = document.getElementById("funFactButton");
     const display = document.getElementById("funFactDisplay");
 
-    // Create an array of fun facts
+    // List of Fun facts
     const funFacts = [
       "Mathematics and Chemistry are my favorite subjects!",
       "Fun Fact: As a child, I envisioned myself in a variety of professions, from becoming a lawyer and medical doctor to pursuing a career as a data scientist.",
@@ -80,10 +80,10 @@ Capturing moments through photography is one of my favorite creative outlets. It
       // Generate a random index to select a fun fact
       const randomIndex = Math.floor(Math.random() * funFacts.length);
 
-      // Display the selected fun fact
+      // Display the fun fact
       display.textContent = funFacts[randomIndex];
 
-      // Make the fun fact visible (if it was previously hidden)
+      // Make the fun fact visible as it was previously hidden 
       display.style.display = "block";
     });
   </script>
