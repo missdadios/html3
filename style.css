@@ -96,7 +96,7 @@ border-right: 2px solid black;
 }
 
 /* Adding a different style to navigation buttons when hovered on */
-.nav-button:hover {
+#main-nav .nav-button:hover {
   background-color: white;
   border: 2px solid black;
   color: pink;
