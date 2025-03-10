@@ -160,6 +160,17 @@ nav ul li a {
   font-style: italic;
 }
 
+#email {
+  width: 100%;   
+  max-width: 10px;  
+  height: auto;  
+  cursor: pointer;
+  border-radius: 2px;
+  transition: transform 0.3s ease;
+}
+#email:hover {
+  transform: scale(0.25);
+
 /* Making the page responsive on screen with 1299px width */
 @media all and (max-width: 1299px) {
 body {
