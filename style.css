@@ -234,6 +234,9 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
+#hobbies {
+  max-width: 1299px;
+  }
 }
 
 
@@ -257,6 +260,10 @@ body {
     font-size: 30px;
     margin-left: 20px;
 
+  }
+
+  #hobbies {
+  max-width: 900px;
   }
 
   .profile {
@@ -323,6 +330,9 @@ margin-bottom: 20px;
   margin-left: 23px;
   margin-right: 23px;
 }
+  #hobbies {
+  max-width: 780px;
+  }
 }
 
 /* Making the page responsive on screen with 600px width */
@@ -335,6 +345,9 @@ margin-bottom: 20px;
   h2 {
     font-size: 28px;
 margin-top: 20px;
+  }
+  #hobbies {
+  max-width: 600px;
   }
 
 #ivy {
@@ -363,6 +376,9 @@ margin-bottom: 20px;
     padding: 7px 12px;
     font-size: 17px;
 }
+  #hobbies {
+  max-width: 457px;
+  }
   ]
 
 /* Making the page responsive on screen with 412px width */  
@@ -379,6 +395,9 @@ margin-bottom: 20px;
   h2 {
     font-size: 28px;
 margin-top: 10px;
+  }
+  #hobbies {
+  max-width: 412px;
   }
 
 .profile {
@@ -416,6 +435,9 @@ margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
+#hobbies {
+  max-width: 383px;
+  }
 }
 
 
