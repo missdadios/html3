@@ -160,12 +160,12 @@ border-right: 2px solid black;
   font-style: italic;
 }
 
-#main-nav ul {
+#footer-nav ul {
   list-style-type: none;
   cursor: pointer;
 }
 
-#main-nav ul li {
+#footer-nav ul li {
   display: inline;
   padding-right: 8px;
   padding-left: 8px;
@@ -173,7 +173,7 @@ border-right: 2px solid black;
 
 
 /* Adding transition effect to contact icons when hovered on */
-#main-nav ul li a {
+#footer-nav ul li a {
   text-decoration: none; 
   transition: border-radius 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
@@ -181,7 +181,7 @@ border-right: 2px solid black;
 
 #email {
   width: 100%;   
-  max-width: 70px;  
+  max-width: 100px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
