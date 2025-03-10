@@ -1,7 +1,4 @@
-html {
-  background-color: white;
-}
-
+/* Style for the body section */
 body {
   background-color: white;
   font-family: sans-serif;
@@ -53,8 +50,6 @@ margin-top: 70px;
 }
 
 
-
-
 #hobbies {
   background-color: pink;
   padding-top: 10px;
@@ -69,6 +64,7 @@ margin-top: 70px;
   text-align: justify;
 }
 
+/* Adding style to navigation menu */
 nav ul {
   list-style-type: none;
   background-color: pink;
@@ -89,15 +85,17 @@ border-right: 2px solid black;
 }
 
 nav ul li:last-child {
-  border-right: none;
+  border-right: none; /* Removing border on the right of the last navigation button */
 }
 
+/* Adding transition effect to navigation buttons when hovered on */
 nav ul li a {
-  text-decoration: none;
+  text-decoration: none; /* Removing bullet on text */
   color: black;
   transition: border-radius 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Adding a different style to navigation buttons when hovered on */
 .nav-button:hover {
   background-color: white;
   border: 2px solid black;
@@ -109,10 +107,11 @@ nav ul li a {
   border-radius: 18px;
 }
 
+/* Adding style and margin to img and transition effect when hovered on */
 img {
-  width: 100%;   /* Make the image responsive */
-  max-width: 325px;  /* Maintain the max size */
-  height: auto;  /* Maintain the aspect ratio */
+  width: 100%;   
+  max-width: 325px;  
+  height: auto;  
   float: right;
   margin-left: 60px;
   cursor: pointer;
@@ -120,17 +119,18 @@ img {
   transition: transform 0.3s ease;
 }
 
+/* Adding transform effect to img when hovered on */
 img:hover {
   transform: scale(0.95);
 }
 
+/* Adding style on Fun Fact Button */
 #funFactButton {
   background-color: pink;
   color: black;
   font-weight: bold;
   font-family: sans-serif;
   padding: 10px 20px;
-
   font-size: 18px;
   border: black;
   cursor: pointer;
@@ -140,6 +140,7 @@ img:hover {
   margin: 0 auto;
 }
 
+/* Making the Fun Fact button interactive */
 #funFactButton:hover {
   background-color: white;
   border: 2px solid black;
@@ -150,14 +151,16 @@ img:hover {
   display: none; /* Initially hidden */
 }
 
+/* Adding style on Fun Fact when displayed */
 #funFactDisplay {
   display: block;
   margin-top: 20px;
   font-size: 18px;
-  color: #ff6347; /* Tomato color */
+  color: #ff6347; 
   font-style: italic;
 }
 
+/* Making the page responsive on screen with 1299px width */
 @media all and (max-width: 1299px) {
 body {
   max-width: 1200px;
@@ -167,11 +170,10 @@ body {
 }
 
 
-
-/* Responsive Styles */
+/* Making the page responsive on screen with 900px width */
 @media all and (max-width: 900px) {
-  /* Adjust text size */
 
+/* Adjust different sections of the page */  
   body {
   margin-left: 45px;
   margin-right: 45px;
@@ -190,7 +192,6 @@ body {
 
   }
 
-  /* Adjust profile section */
   .profile {
     font-size: 16px;
     margin-left: 10px;
@@ -241,13 +242,14 @@ margin-bottom: 20px;
   #funFactButton {
     margin-left: auto;
     margin-right: auto;
-    width: 100%; /* Ensures the button stays within the container */
+    width: 100%; /* Button takes full width */
     max-width: 300px; /* Controls the max width */
     display: block;
     margin-top: 20px;
   }
 }
 
+/* Making the page responsive on screen with 780px width */
 @media all and (max-width: 780px) {
 
   body {
@@ -256,10 +258,9 @@ margin-bottom: 20px;
 }
 }
 
+/* Making the page responsive on screen with 600px width */
 @media all and (max-width: 600px) {
-
-  
-
+ 
     h1 {
     font-size: 40px;
   }
@@ -272,28 +273,20 @@ margin-top: 20px;
 img {
 margin-bottom: 20px;
 }
-
-
-
-
-
-
-  
+ 
   #funFactButton {
     font-size: 16px;
     padding: 8px 12px;
-    width: 100%;
-    max-width: 300px; /* Button fits within smaller screens */
-    margin: 10px auto; /* Centers button and adds spacing */
+    margin: 10px auto; 
   }
 
 #funFactDisplay {
   margin-top: 20px;
 }
-
 }
 
 
+/* Making the page responsive on screen with 457px width */
 @media all and (max-width: 457px) {
  nav ul li {
   padding-right: 1px;
@@ -304,7 +297,8 @@ margin-bottom: 20px;
     font-size: 17px;
 }
   ]
-  
+
+/* Making the page responsive on screen with 412px width */  
 @media all and (max-width: 412px) {
   
   body {
@@ -341,17 +335,15 @@ margin-bottom: 20px;
     font-size: 14px;
     padding: 6px 12px;
     margin-bottom: 20px;
-    width: 100%; /* Button takes full width */
     max-width: 280px; /* Adjust button size for very small screens */
   }
 
 #funFactDisplay {
   margin-top: 10px;
 }
-
 }
 
-
+/* Making the page responsive on screen with 383px width */
 @media all and (max-width: 383px) {
   body {
   margin-left: 10px;
