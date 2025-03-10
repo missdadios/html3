@@ -162,6 +162,7 @@ border-right: 2px solid black;
 
 #footer-nav ul {
   list-style-type: none;
+  font-style: bold;
   cursor: pointer;
 }
 
@@ -175,7 +176,7 @@ border-right: 2px solid black;
 
 #email {
   width: 100%;   
-  max-width: 50px;  
+  max-width: 23px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
@@ -187,7 +188,7 @@ border-right: 2px solid black;
 
 #fb {
   width: 100%;   
-  max-width: 55px;  
+  max-width: 25px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
@@ -198,7 +199,7 @@ border-right: 2px solid black;
 }
 #ig {
   width: 100%;   
-  max-width: 47px;  
+  max-width: 20px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
@@ -209,7 +210,7 @@ border-right: 2px solid black;
 }
 #tk {
   width: 100%;   
-  max-width: 48px;  
+  max-width: 21px;  
   height: auto;  
   cursor: pointer;
   border-radius: 2px;
