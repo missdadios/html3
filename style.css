@@ -189,6 +189,39 @@ border-right: 2px solid black;
 }
 #email:hover {
   transform: scale(0.95);
+
+#fb {
+  width: 100%;   
+  max-width: 100px;  
+  height: auto;  
+  cursor: pointer;
+  border-radius: 2px;
+  transition: transform 0.2s ease;
+}
+#fb:hover {
+  transform: scale(0.95);
+
+#ig {
+  width: 100%;   
+  max-width: 100px;  
+  height: auto;  
+  cursor: pointer;
+  border-radius: 2px;
+  transition: transform 0.2s ease;
+}
+#ig:hover {
+  transform: scale(0.95);
+
+#tk {
+  width: 100%;   
+  max-width: 100px;  
+  height: auto;  
+  cursor: pointer;
+  border-radius: 2px;
+  transition: transform 0.2s ease;
+}
+#tk:hover {
+  transform: scale(0.95);
   
 
 /* Making the page responsive on screen with 1299px width */
