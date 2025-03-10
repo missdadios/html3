@@ -92,12 +92,20 @@ border-right: 2px solid black;
 /* Adding transition effect to navigation buttons when hovered on */
 #main-nav ul li a {
   text-decoration: none; /* Removing bullet on text */
-  color: black;
   transition: border-radius 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Adding a different style to navigation buttons when hovered on */
-
+.nav-button:hover {
+  background-color: white;
+  border: 2px solid black;
+  color: pink;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  padding-left: 3px;
+  border-radius: 18px;
+}
 
 /* Adding style and margin to img and transition effect when hovered on */
 #ivy {
